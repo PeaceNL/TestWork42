@@ -1,0 +1,14 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "postgres",
+    "database": "bigDataTest",
+    "entities": ["src/users/user.entity.ts"],
+    "migrations": ["src/migration/createUserTable.ts"],
+    "cli": {
+      "migrationsDir": "src/migration"
+    }
+  }
+  
